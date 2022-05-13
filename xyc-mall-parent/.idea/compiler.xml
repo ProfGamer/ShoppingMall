@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xyc-mall-pay" />
+        <module name="xyc-mall-cms" />
+        <module name="xyc-mall-manager-web" />
+        <module name="xyc-mall-cart" />
+        <module name="xyc-mall-cart-api" />
+        <module name="xyc-mall-dictionary" />
+        <module name="xyc-mall-sms-api" />
+        <module name="xyc-mall-generator" />
+        <module name="xyc-mall-oms-api" />
+        <module name="xyc-mall-ums" />
+        <module name="xyc-mall-job" />
+        <module name="xyc-mall-pms-api" />
+        <module name="xyc-mall-pms" />
+        <module name="xyc-mall-common-util" />
+        <module name="xyc-mall-sms" />
+        <module name="xyc-mall-cms-api" />
+        <module name="xyc-mall-ums-api" />
+        <module name="xyc-mall-dictionary-api" />
+        <module name="xyc-mall-oms" />
+        <module name="xyc-mall-pay-api" />
+        <module name="xyc-mall-common-base" />
+        <module name="xyc-mall-portal-web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

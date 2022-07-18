@@ -5,7 +5,43 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-product/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-order/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-member/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-ware/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-coupon/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/xyc-mall-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-api/xyc-mall-cart-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-api/xyc-mall-cms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-api/xyc-mall-dictionary-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-api/xyc-mall-oms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-api/xyc-mall-pay-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-api/xyc-mall-pms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-api/xyc-mall-sms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-api/xyc-mall-ums-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-application/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-application/xyc-mall-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-application/xyc-mall-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-common/xyc-mall-common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-common/xyc-mall-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-job/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-service/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-service/xyc-mall-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-service/xyc-mall-cms/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-service/xyc-mall-dictionary/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-service/xyc-mall-oms/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-service/xyc-mall-pay/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-service/xyc-mall-pms/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-service/xyc-mall-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/xyc-mall-service/xyc-mall-ums/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">

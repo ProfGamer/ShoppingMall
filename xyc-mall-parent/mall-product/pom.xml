@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.6</version>
+        <version>2.4.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.xyc.mall</groupId>
@@ -15,9 +15,14 @@
     <description>mall-product</description>
     <properties>
         <java.version>11</java.version>
-        <spring-cloud.version>2021.0.3</spring-cloud.version>
+        <spring-cloud.version>2020.0.1</spring-cloud.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.xyc.mall</groupId>
+            <artifactId>mall-commons</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

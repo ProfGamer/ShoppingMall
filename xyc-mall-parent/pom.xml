@@ -10,13 +10,14 @@
     <name>xyc-mall-parent</name>
     <description>微服务架构电商后端</description>
     <modules>
-        <module>mall-common</module>
         <module>mall-member</module>
         <module>mall-order</module>
         <module>mall-product</module>
         <module>mall-ware</module>
         <module>mall-coupon</module>
         <module>renren-fast-master</module>
+        <module>mall-commons</module>
+
 
     </modules>
     <packaging>pom</packaging>

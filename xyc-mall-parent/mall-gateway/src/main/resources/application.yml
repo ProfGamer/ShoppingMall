@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: mall-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.56.11:8849
+    gateway:
+      routes:
+        - id: route1
+          uri: https://github.com/
+          predicates:
+            - Query=web,git
+        - id: route2
+          uri: https://bilibili.com/
+          predicates:
+            - Query=web,bilibili
+
+server:
+  port: 8070
+
+# routing

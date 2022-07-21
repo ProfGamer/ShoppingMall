@@ -5,11 +5,7 @@ import java.util.Map;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.xyc.mall.product.entity.BrandEntity;
 import com.xyc.mall.product.service.BrandService;
@@ -31,11 +27,15 @@ public class BrandController {
     @Autowired
     private BrandService brandService;
 
+    @GetMapping("/all")
+    public R queryAllBrand(){
+        BrandEntity testBrand = BrandEntity.builder().name("Apple").descript("美国苹果公司").build();
+        return R.ok().put("brands", testBrand);
+    }
     /**
      * 列表
      */
     @RequestMapping("/list")
-
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = brandService.queryPage(params);
 

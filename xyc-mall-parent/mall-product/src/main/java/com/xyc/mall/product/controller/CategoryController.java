@@ -1,9 +1,11 @@
 package com.xyc.mall.product.controller;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -35,13 +37,18 @@ public class CategoryController {
      * 列表
      */
     @RequestMapping("/list")
-
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = categoryService.queryPage(params);
 
         return R.ok().put("page", page);
     }
 
+    @RequestMapping("/list-category-tree")
+    public R listCategoryTree(@RequestParam Map<String, Object> params){
+        List<CategoryEntity> category = categoryService.queryWithTree(params);
+
+        return R.ok().put("data", category);
+    }
 
     /**
      * 信息
